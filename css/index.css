@@ -177,12 +177,58 @@ main .texto_secundario{
 
 .card_impuestos{
     display: flex;
-    
-    margin-top: 8vw;
+    align-items: center;
+    margin-top: 10vw;
     margin-left: 1.5rem;
     padding: 2rem;
-    width: 740px;
+    max-width: 1030px;
     background-color: #D9FDE5;
     border-radius: 20px;
     text-align: left;
+    font-family: "Work Sans", sans-serif;
+    color: #2E4F21;
+}
+
+.card_impuestos_img{
+    width: 394px;
+    height: 313.359px;
+    margin-left: 4.5vw;
+}
+
+.content_card{
+    margin-left: 4vw;
+    max-width: 400px;
+    line-height: 1;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.content_card h5{
+    text-align: left;
+    margin-bottom: 3vw;
+    font-weight: 400;
+    letter-spacing: -0.5202px;
+    font-size: 34px;
+}
+
+.card_impuestos P{
+    font-size: 16px;
+    letter-spacing: -0.1152px;
+}
+
+.boton{
+    transform: translateY(65px);
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(80, 99, 73);
+    background-color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.boton:hover{
+    background-color: rgb(160, 241, 189);
 }
